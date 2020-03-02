@@ -9,7 +9,7 @@ resource "pagerduty_team" "engineering" {
 }
 
 # Create a PagerDuty user
-resource "pagerduty_user" "sudeep" {
+resource "pagerduty_user" "prem" {
   name  = "SudeepM"
   email = "sudeep.malepati@ibexlabs.com"
   role  = "admin"
